@@ -1,6 +1,10 @@
 # HTTP vs HTTPS
 ![](https://i.imgur.com/7PUIw03.png)
 
+HTTP, or hypertext transfer protocol, is the entire backbone of the world wide web. It is the protocol used to process, render, and deliver web pages from the server-side to the client browser. HTTP is the means through which most of the web is displayed.
+
+HTTP and HTTPS work through what are called requests. These requests are created by the user browser when the user performs some interaction with a website. This is a critical element in page rendering, and without it, you would not be using the world wide web as it exists today.
+
  ### How does HTTPS work? 
    #### What is HTTPS?
 Hypertext transfer protocol secure (HTTPS) is the secure version of HTTP, which is the primary protocol used to send data between a web browser and a website. HTTPS is encrypted in order to increase security of data transfer. This is particularly important when users transmit sensitive data, such as by logging into a bank account, email service, or health insurance provider.
@@ -11,6 +15,11 @@ HTTPS uses an encryption protocol to encrypt communications. The protocol is cal
 1- **The private key** : this key is controlled by the owner of a website and it’s kept, as the reader may have speculated, private. This key lives on a web server and is used to decrypt information encrypted by the public key.
 
 2- **The public key** : this key is available to everyone who wants to interact with the server in a way that’s secure. Information that’s encrypted by the public key can only be decrypted by the private key.
+
+#### Some Examples:
+
+* When you want to secure the transmission of credit card data or other sensitive information (such as someone's real address and physical identity). 
+* When you run a lead generation website that relies on someone's real information, in which case you want to use HTTPS to safeguard against malicious attacks on the user's data.
 
 
 
@@ -64,7 +73,6 @@ The reason why the Google algorithm increasingly prefers https is that the compa
     Then Follwoing this steps :
    ##### Step 1: download SSL Certificate Files.
    ##### Step 2 :upload SSL files to Server directory.
-   ##### Step 3 :
 
  ```javaScript
  const https = require('https');
